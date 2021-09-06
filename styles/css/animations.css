@@ -1,0 +1,18 @@
+.iconss .fa {
+    animation-name: shaker;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    transition: all 1s ease-in-out;
+    animation-play-state: running;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes shaker {
+    0% {
+        margin-left: 34px;
+    }
+    100% {
+        margin-left: 55px;
+    }
+}
